@@ -41,10 +41,7 @@
 <!--fin del nav-->
 
 <div class="container_img">
-  <img class="new" src="images/Header.jpg" alt="imagen coreanas">
-  <div class="text_img">
-    <h2>Welcome to Korean Beauty</h2>
-  </div>
+  <img class="new" src="images/Header.jpg" class="img-fluid" alt="imagen coreanas">
 </div>
 
 
@@ -97,17 +94,21 @@
    
     <section> 
       <p>Te dejamos un video de muestra para que veas a qué me refiero con "10 pasos"</p>
-      <div class="ratio ratio-16x9">
-        <iframe src="https://www.youtube.com/embed/3vxXQyk2T7g" title="YouTube video" allowfullscreen></iframe>
-      </div>
+      
+        <div class="ratio" style="--bs-aspect-ratio: 50%;">
+          <iframe src="https://www.youtube.com/embed/3vxXQyk2T7g" title="YouTube video" allowfullscreen></iframe>
+        </div>
+      
     </section>
  
   </main>
 
   <!--- pie de pagina footer-->
+  <section>
+
   <footer class="footer">
     <!--carousel-->
-<div id="carouselExample" class="carousel slide">
+ <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src= "images/slide koreanews.jpg" class="d-block w-100" alt="news korea">
@@ -127,7 +128,8 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+ </div>
+
 
     <section>
       <h4>Seguinos en <a href="https://www.instagram.com/luxodia_cosmetica/" target="_blank">Instagram</a> para estar al tanto de nuestras actualizaciones y sorteos!</h4>
