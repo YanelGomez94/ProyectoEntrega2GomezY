@@ -96,12 +96,12 @@
     flex-direction: column;
  }
  
+
+
  .ratio {
    position: relative;
-   width: 95%;
-   margin-left: 40px;
-   margin-right: 40px;
-}
+   width: 95%;}
+
  /* Change the link color to #111 (black) on hover */
  .li_index a:hover {
     background-color: green;
@@ -156,6 +156,7 @@
  
  .container_img {
     display: flex;
+    flex-direction: column;
     position: relative;
     font-family: Arial;
     margin: 0 auto;
@@ -163,6 +164,8 @@
  }
  
  .text_img {
+   display: flex;
+   flex-direction: column;
     position: absolute;
     bottom: 50%;
     left: 5%;
@@ -247,12 +250,11 @@
  
   /*rutinas*/
  .pasos {
-    width: 500px;
-    height: 500px; 
-    margin-left: 700px;
-    margin-bottom: 50px;
-    margin-top: 50px;
- }
+   display: flex;
+    width: 100%;
+    height: 100%; 
+    justify-content: center;
+   }
 
  /* .img {
     padding: 30px;
@@ -268,7 +270,7 @@
     position: relative;
     padding: 10px;
  } */
- 
+
  .pseudo {
    display: flex;
    flex-direction: column;
@@ -287,12 +289,14 @@
    align-items: center;
    gap: 20px;
    transition: 0.5s;
+   width: auto;
  }
  .caja__content {
    padding: 20px;
    display: flex;
    justify-content: center;
    align-items: flex-start;
+   flex-direction: column;
  }
  .caja img {
    width: 30%;
@@ -390,6 +394,7 @@
          display: flex;
          flex-direction: column;
       }
+      
   }
   
  
