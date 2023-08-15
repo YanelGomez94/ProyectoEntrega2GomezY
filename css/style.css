@@ -208,6 +208,8 @@
    background-color: rgb(11, 7, 252);
  }
  .row {
+   display: flex;
+   flex-direction: column;
     padding: 50px;
  }
  
