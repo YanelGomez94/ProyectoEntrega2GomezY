@@ -229,6 +229,13 @@
  .card p {
    max-width: 100%;
  }
+ .container_iframe {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+
+ }
  
 
  /* .contenedor {
@@ -253,23 +260,9 @@
     height: 100%; 
     justify-content: center;
    }
-
- /* .img {
-    padding: 30px;
-    text-align: center;
- }
- 
- .img_body img {
-    display: inline-block;
-    padding: 30px;
- }
- 
- .img_body {
-    position: relative;
-    padding: 10px;
- } */
-
- .pseudo {
+   
+   
+   .pseudo {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -367,7 +360,7 @@
     background-color: antiquewhite;
     grid-area: area9
  }
- 
+ /*carrusel se encuentra en el index*/ 
  .carousel-inner, .carousel-item {
    height: 600px;
  }
@@ -387,7 +380,7 @@
   /*mediaqueries*/
  
   @media screen and (max-width: 600px) {
-      .grilla {
+      .grilla, .cajita, .cajita, .caja{
          display: flex;
          flex-direction: column;
       }
@@ -434,7 +427,11 @@
    .pasos {
      display: flex;
      flex-direction: column;
+     padding: 50px;
      width: 90%;
+   }
+   .caja img {
+      width: 100%;
    }
 
 }
