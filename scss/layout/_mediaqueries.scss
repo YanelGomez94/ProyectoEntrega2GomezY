@@ -1,0 +1,76 @@
+ /*mediaqueries*/
+ 
+ @media screen and (max-width: 600px) {
+    .grilla, .cajita, .cajita, .caja{
+       display: flex;
+       flex-direction: column;
+    }
+    .text_img {
+       display: flex;
+       align-items: center;
+       align-self: center;
+    }
+ 
+}
+
+@media screen and (max-width: 500px) {
+ .card p {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin: 14px;
+    line-height: 1.5;
+ }
+}
+@media screen and (min-width: 900px) {
+ .ratio {
+    display: block;
+    margin: auto;
+ }
+
+}
+@media screen and (max-width: 900px) {
+ .ratio {
+    display: block;
+    margin: auto;
+ }
+
+}
+
+@media screen and (max-width: 600px) {
+ .container_img {
+    align-content: center;
+ }
+
+}
+
+@media screen and (max-width: 500px) {
+ .pasos {
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+   width: 90%;
+ }
+ .caja img {
+    width: 100%;
+ }
+
+}
+
+@media screen and (max-width: 500px) {
+ .row {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+ 
+ }
+
+
+}
+@media (min-width: 768px) {
+ .col-md-6 {
+    display: flex;
+    flex-direction: column;
+ }
+}
+

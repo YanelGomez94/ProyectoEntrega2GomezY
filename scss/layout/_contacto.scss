@@ -1,0 +1,35 @@
+/*formulario*/
+.form-content:hover {
+    transition: 0.5s;
+    background-color: rgb(230, 229, 229);
+  }
+  .form-type{
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     width: 50%;
+    
+     
+  }
+  
+  .form-content {
+     margin-top: 10px;
+  }
+  
+  .submit-btn {
+    background-color: aliceblue;
+    color: rgb(128, 80, 88);
+    border-radius: 10px;
+    padding: 10px 14px;
+    transition: 0.5s;
+    margin-top: 10px;
+  }
+ 
+  .submit-btn:hover {
+    color: rgb(248, 248, 248);
+    background-color: rgb(11, 7, 252);
+  }
+  .row {
+    width: 100%;  
+    padding: 50px;
+  }

@@ -1,0 +1,115 @@
+ 
+ /* pagina inicio*/
+ .contenido {
+    margin: 30;
+    background-color: rgb(224, 215, 194)¡;
+ }
+ 
+
+ 
+ .container_ol {
+    text-align: center;
+    margin-bottom: 50px;
+    flex-direction: column;
+ }
+  
+ .ol_rutina {
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+    flex-direction: column;
+ }
+ 
+ .ul_index {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    flex-direction: column;
+ }
+ 
+ .li_index {
+    float: left;
+    flex-direction: column;
+ }
+ 
+ .li_index a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+ }
+ 
+
+
+ .ratio {
+   position: relative;
+   width: 95%;}
+
+ /* Change the link color to #111 (black) on hover */
+ .li_index a:hover {
+    background-color: green;
+ }
+ 
+ /*lista inicio*/ 
+ .lista {
+    margin-left: 75px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+ }
+ 
+ .logo {
+    display: flex;
+    color: antiquewhite;
+    font-size: 28px;
+    ;
+ }
+ 
+ .new {display: flex;
+    background-color: beige;
+    height: 500%;
+    width: 100%;
+
+ }
+ 
+ .container_img {
+
+    position: relative;
+    font-family: Arial;
+    margin: 0 auto;
+    
+ }
+ 
+ .text_img {
+   display: flex;
+   flex-direction: column;
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    width: 90%;
+    padding: 10px;
+ }
+ 
+  /*carrusel se encuentra en el index*/ 
+  .carousel-inner, .carousel-item {
+    height: 600px;
+  }
+  .carousel img {
+    height: 100%;
+   object-fit: cover;
+  }
+  .slide {
+     margin-top: 30px;
+  }
+  .slide img {
+     height: 60vh;
+     padding: 10px;
+  }
