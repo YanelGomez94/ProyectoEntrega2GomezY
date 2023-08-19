@@ -5,20 +5,19 @@
     padding: 10px;
     margin: auto;
     justify-content: center;
- }
- .card {
-    background-color: aliceblue;
-    width: 400px;
-    padding: 20px;
- }
- .card p {
-   max-width: 100%;
- }
- .container_iframe {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
 
+    .card {
+      background-color: aliceblue;
+      width: 400px;
+      padding: 20px;
+
+      .card p {
+        max-width: 100%;
+      }
+      
+   }
  }
+ 
+ 
+ 
  

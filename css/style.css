@@ -116,11 +116,6 @@ nav ul li {
   width: 95%;
 }
 
-/* Change the link color to #111 (black) on hover */
-.li_index a:hover {
-  background-color: green;
-}
-
 /*lista inicio*/
 .lista {
   margin-left: 75px;
@@ -325,6 +320,13 @@ nav ul li {
   grid-area: area9;
 }
 
+.container_iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 /*imagen ab me*/
 .cards {
   display: flex;
@@ -333,22 +335,13 @@ nav ul li {
   margin: auto;
   justify-content: center;
 }
-
-.card {
+.cards .card {
   background-color: aliceblue;
   width: 400px;
   padding: 20px;
 }
-
-.card p {
+.cards .card .card p {
   max-width: 100%;
-}
-
-.container_iframe {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 /*formulario*/
