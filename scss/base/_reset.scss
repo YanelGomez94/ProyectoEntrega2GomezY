@@ -42,11 +42,28 @@
     border-radius: 100%;
     position: fixed;
     bottom: 30px;
-    background-color: aquamarine;
+    background-color: rgb(187, 209, 220);
     right: 10px;
+    animation-name: init;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 0s;
  }
  
  .boton a {
     padding: 30px;
     display: inline-block;   
+ }
+ @keyframes init {
+   10% {
+      transform: translateY(0);
+   }
+   50% {
+      transform: translateY(50px);
+   }
+   100% {
+      transform: translateY(0)
+   }
+
  }

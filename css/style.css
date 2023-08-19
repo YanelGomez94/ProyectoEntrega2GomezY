@@ -43,8 +43,13 @@ h2 {
   border-radius: 100%;
   position: fixed;
   bottom: 30px;
-  background-color: aquamarine;
+  background-color: rgb(187, 209, 220);
   right: 10px;
+  animation-name: init;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-delay: 0s;
 }
 
 .boton a {
@@ -52,6 +57,17 @@ h2 {
   display: inline-block;
 }
 
+@keyframes init {
+  10% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 nav ul li {
   display: flex;
   justify-content: space-between;
@@ -157,7 +173,7 @@ nav ul li {
 
 .carousel {
   width: 100%;
-  height: 700px;
+  height: 500px;
   overflow: hidden;
   position: relative;
 }
@@ -339,6 +355,11 @@ nav ul li {
   background-color: aliceblue;
   width: 400px;
   padding: 20px;
+  overflow: hidden;
+}
+.cards .card:hover img {
+  transform: scale(1.3, 1.3);
+  transition: 0.5s;
 }
 .cards .card .card p {
   max-width: 100%;
