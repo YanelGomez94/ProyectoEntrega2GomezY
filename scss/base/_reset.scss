@@ -4,7 +4,7 @@
  }
  
  p {
-    font-family: Verdana;
+    font-family:$font-familyprincipal;
     text-align: left;
     margin-left: 50px;
     margin-right: 50px;
@@ -20,20 +20,20 @@
  }
  
  body {
-    font-family: Verdana !important;
-    background-color: rgb(224, 215, 194);
+    font-family: $font-familyprincipal;
+    background-color: $background-body;
  }
  
  h1 {
      color: black;
-     font-family: Verdana !important;
+     font-family: $font-familyprincipal;
      text-align: center;
      margin: 50px;
  }
  
  h2 {
     color: black;
-    font-family: Arial;
+    font-family:$font-familysecundary;
     text-align: center;
     margin: 50px;
  }

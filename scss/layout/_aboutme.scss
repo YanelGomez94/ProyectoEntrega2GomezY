@@ -1,11 +1,9 @@
 /*imagen ab me*/ 
 .cards {
-    display: flex;
+  @include flex (center, center, 5px);
     background-color: rgb(252, 252, 252);
     padding: 10px;
     margin: auto;
-    justify-content: center;
-      
 
     .card {
       background-color: aliceblue;

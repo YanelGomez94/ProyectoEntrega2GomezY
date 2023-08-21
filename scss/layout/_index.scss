@@ -8,16 +8,16 @@
 
  
  .container_ol {
-    text-align: center;
+   @include text (center, column);
     margin-bottom: 50px;
-    flex-direction: column;
+   
  }
   
  .ol_rutina {
     display: inline-block;
-    text-align: left;
-    margin-top: 10px;
-    flex-direction: column;
+    @include text (left, column);
+     margin-top: 10px;
+    
  }
  
  .ul_index {
@@ -37,11 +37,10 @@
  .li_index a {
     display: block;
     color: white;
-    text-align: center;
+    @include text (center, column);
     padding: 14px 16px;
     text-decoration: none;
     background: rgba(0, 0, 0, 0.5);
-    flex-direction: column;
  }
  
 
@@ -85,15 +84,15 @@
  }
  
  .text_img {
-   display: flex;
-   flex-direction: column;
+   @include flex (column, center, 30px);
+   
     position: absolute;
     bottom: 50%;
     left: 5%;
     background: rgba(0, 0, 0, 0.5); 
     color: white;
     width: 90%;
-    padding: 10px;
+    
  }
 
  .carousel {
