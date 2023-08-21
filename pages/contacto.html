@@ -86,41 +86,38 @@
     </div>
         
         
-        <section class="form-type">
-            <!---METHOD= POST = ENVIAR DATOS - GET =TRAER DATOS-->
-            <select class="form-select" aria-label="Default select example">
-                <option selected>Opina sobre:</option>
-                <option value="1">Rutinas</option>
-                <option value="2">K-Style</option>
-                <option value="3">Otros</option>
-              </select>
-              
-            <form action="" method="GET"  enctype="application/x-www-form-urlencoded"> 
-                
-                <div class="form-content">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" placeholder="Ingrese su nombre" name="nombre">
-                </div>
-
-                <div class="form-content">
-                    <label for="email">E-mail: </label>
-                    <input type="email" placeholder="Email">
-                </div>
-
-                <div class="form-content">
-                    <label for="about">Asunto:</label>
-                    <input type="text" placeholder="Asunto" name="Asunto">
-                </div>
-
-                <div class="form-content">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="" id="" cols="20" rows="8" placeholder="Deje su mensaje"></textarea>
-                </div>
-
-                <button class="submit-btn" type="submit">Enviar</button>
-
-            </form>
-        </section>
+    <section class="form-type">
+      <form action="" method="GET" enctype="application/x-www-form-urlencoded">
+          <select class="form-select" aria-label="Default select example" name="opciones">
+              <option selected>Opina sobre:</option>
+              <option value="1">Rutinas</option>
+              <option value="2">K-Style</option>
+              <option value="3">Otros</option>
+          </select>
+  
+          <div class="form-content">
+              <label for="nombre">Nombre:</label>
+              <input type="text" placeholder="Ingrese su nombre" name="nombre">
+          </div>
+  
+          <div class="form-content">
+              <label for="email">E-mail: </label>
+              <input type="email" placeholder="Email" name="email">
+          </div>
+  
+          <div class="form-content">
+              <label for="about">Asunto:</label>
+              <input type="text" placeholder="Asunto" name="asunto">
+          </div>
+  
+          <div class="form-content">
+              <label for="mensaje">Mensaje:</label>
+              <textarea name="mensaje" id="" cols="20" rows="8" placeholder="Deje su mensaje"></textarea>
+          </div>
+  
+          <button class="submit-btn" type="submit">Enviar</button>
+      </form>
+  </section>
     
     </main>
       
