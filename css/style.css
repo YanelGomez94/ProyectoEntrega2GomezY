@@ -395,13 +395,19 @@ nav ul li {
 }
 
 .form-content {
-  margin-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
 }
-.form-content .form-content a {
-  padding-right: 60px;
-  align-content: center;
+
+.form-content label {
+  width: 20%;
+  clear: both;
+}
+
+.form-content input, textarea {
+  width: 100%;
+  clear: both;
 }
 
 .submit-btn {

@@ -11,16 +11,20 @@
   }
   
   .form-content {
-     margin-top: 10px;
-     padding-left: 10px;
-     padding-right: 10px;
-     
-     .form-content a {
-      padding-right: 60px;
-      align-content: center;
-     }
-  } 
- 
+    margin: 10px;
+    display: flex;
+    align-items: center
+  }
+  
+  .form-content label {
+    width: 20%;
+    clear: both;
+  }
+  
+  .form-content input,textarea {
+    width: 100%;
+    clear: both;
+  }
   
   .submit-btn {
     background-color: aliceblue;
