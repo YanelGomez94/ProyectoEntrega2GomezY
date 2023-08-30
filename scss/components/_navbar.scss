@@ -4,5 +4,24 @@ nav ul li {
     flex-direction: column;
     gap: 10px;
     
+  a {
+        text-decoration: none;
+        font-size: 30px;
+        background-image: linear-gradient(125deg, #c68383bd, #f16666);
+        background-position: 0% 10%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        padding: 10px;
+        transition: background-size .3s;
+
+         &:hover {
+            background-image: linear-gradient(125deg, #c68383ee, #f16666);
+            background-size: 100% 100%;
+            color: white;
+            
+         }
+    }
+
  }
+
  
