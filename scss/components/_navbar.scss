@@ -3,11 +3,11 @@ nav ul li {
     justify-content: space-between;
     flex-direction: column;
     gap: 10px;
-    
+   
   a {
         text-decoration: none;
         font-size: 30px;
-        background-image: linear-gradient(125deg, #c68383bd, #f16666);
+        background-image: linear-gradient(125deg, #c68383, #ffffffa8);
         background-position: 0% 10%;
         background-repeat: no-repeat;
         background-size: 0% 100%;
@@ -15,7 +15,7 @@ nav ul li {
         transition: background-size .3s;
 
          &:hover {
-            background-image: linear-gradient(125deg, #c68383ee, #f16666);
+            background-image: linear-gradient(125deg, #f1ebeb, #f16666);
             background-size: 100% 100%;
             color: white;
             
@@ -23,5 +23,21 @@ nav ul li {
     }
 
  }
+ .navbar-brand {
+  color: #9c3824;
+  background-image: linear-gradient(150deg, #c25ca4, #eeee);
+  transition: 0.3s;
+  padding: 10px;
+ }
 
- 
+ .nav-item, .nav-link{
+   text-decoration: none;
+        font-size: 20px;
+        background-image: linear-gradient(125deg, #c68383, #f16666a8);
+        background-position: 0% 10%;
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        padding: 10px;
+        transition: background-size .8s;
+
+ }
